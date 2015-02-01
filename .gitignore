@@ -1,0 +1,10 @@
+.DS_Store
+*.sublime-project
+
+node_modules/
+
+.public
+.tmp
+
+*.log
+npm-debug.log
