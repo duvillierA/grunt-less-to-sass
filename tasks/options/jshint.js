@@ -1,11 +1,11 @@
 module.exports = {
 
-  app: {
+  test: {
     src: [
       'test/**/*.js',
     ],
     options: {
-      jshintrc: '.node.jshintrc'
+      jshintrc: '.jshintrc'
     }
   },
 
@@ -15,7 +15,7 @@ module.exports = {
       'tasks/**/*.js'
     ],
     options: {
-      jshintrc: '.node.jshintrc'
+      jshintrc: '.jshintrc'
     }
   }
 };
