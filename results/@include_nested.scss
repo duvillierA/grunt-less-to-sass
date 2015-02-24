@@ -1,0 +1,6 @@
+$primaryColor:  #000;
+$secondaryColor:  #FFF;
+$valid:  true;
+
+@include gradient-vertical($primaryColor, $secondaryColor);
+@include grid-gu($valid);

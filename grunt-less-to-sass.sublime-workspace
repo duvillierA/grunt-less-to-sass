@@ -1,0 +1,961 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"replacement"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"lo",
+				"longitude"
+			],
+			[
+				"c",
+				"contacts"
+			],
+			[
+				"member",
+				"memberId"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"ad",
+				"addContactCheck"
+			],
+			[
+				"tr",
+				"trackCommonContact"
+			],
+			[
+				"sr",
+				"video-screenshot"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"mem",
+				"memberIds"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"pro",
+				"proposition"
+			],
+			[
+				"reme",
+				"rememberMe"
+			],
+			[
+				"replace",
+				"replaceWith  (function)"
+			],
+			[
+				"request",
+				"request-sent"
+			],
+			[
+				"defau",
+				"_defaults"
+			],
+			[
+				"a",
+				"attributes"
+			],
+			[
+				"add",
+				"addContact"
+			],
+			[
+				"tra",
+				"trackMatchingRules"
+			],
+			[
+				"proposi",
+				"propositionID"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"proper",
+				"property"
+			],
+			[
+				"S",
+				"Suggestions"
+			],
+			[
+				"ins",
+				"instanceOf"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cal",
+				"callback"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"pym",
+				"pymk"
+			],
+			[
+				"pymi",
+				"pymi_offset"
+			],
+			[
+				"sho",
+				"showSuccess"
+			],
+			[
+				"get",
+				"getContacts"
+			],
+			[
+				"co",
+				"contact"
+			],
+			[
+				"mmber",
+				"memberId"
+			],
+			[
+				"p",
+				"photoModificationTime"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tasks/options/lessToSass.js",
+			"settings":
+			{
+				"buffer_size": 387,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@important: ($rtl, 0) !important;",
+			"file": "fixtures/important.less",
+			"file_size": 16,
+			"file_write_time": 1424763002000000,
+			"settings":
+			{
+				"buffer_size": 33,
+				"line_ending": "Unix",
+				"name": "!important.less"
+			}
+		},
+		{
+			"file": "tasks/options/clean.js",
+			"settings":
+			{
+				"buffer_size": 58,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/index.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lessToSass.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/@import.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/@include.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/@include.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/lessToSass.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/condition.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/!important.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/condition.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/!default.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/@include_nested.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/@mixin.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/.tmp/@mixin.scss",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/adjust-hue.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/ie-hex-str.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/.tmp/adjust-hue.scss",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/interpolation.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/interpolation.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/mix.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/rgba.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/.tmp/mix.scss",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/mix.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/rgba.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/unquote.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/.tmp/condition.scss",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/variables.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/variables.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/.tmp/conditions.scss",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/@extend.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/@include_nested.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/@mixin.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/adjust-hue.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/ie-hex-str.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/unquote.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/node_modules/lodash/collection/reduce.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/node_modules/lodash/chain/chain.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/node_modules/.bin/_mocha",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/@include_nested",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements/extend.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/package.json",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/LICENSE-MIT",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/.gitignore",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/clean.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/jsbeautifier.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/mkdir.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/mochaTest.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/Gruntfile.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/jshint.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/jsonlint.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/copy.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/README.md",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/hooks/pre-commit",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/import.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/extend.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/conditions.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/fixtures/!default.less",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/.tmp/variables.scss",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/watch.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/options/nodemon.js",
+		"/Users/aduvillier/Documents/projects/grunt-less-to-sass/.editorconfig",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/package.json",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/Gruntfile.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/README.md",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/newrelic.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app.js",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/data/elements.yml",
+		"/Users/aduvillier/Documents/projects/tetra-ui/package.json",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/foundation/variables.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/type.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/components/box.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/components/button.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/helpers.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/components/card.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/patterns.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/helpers/helpers-miscellaneous.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/boxes/boxes-basic-example.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/components/popover.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/data/colors.yml",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/icons.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/data/icons.yml",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/components/share.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/components/share.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/components/dropdown.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/forms/forms-states.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/components/steps.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/buttons/buttons-basic-example.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/sidebar-doc.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/documentation/index.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/forms/forms-basic-example.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/forms/forms-extending.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/forms/forms-horizontal.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/src/less/components/tabs.less",
+		"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/layouts/default.hbs",
+		"/Users/aduvillier/Documents/projects/tetra-ui/tasks/options/connect.js",
+		"/Users/aduvillier/Documents/projects/tetra-ui/dist/less/tetra-ui-rtl.less",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/views/lets_meet/search.hbs",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/bower.json",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/contacts_suggestions/views/contact.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers/endpoints/contacts/suggestions.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/letsmeet-search/controllers/application.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/services/lets_meet.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/letsmeet-search/templates/location/index.hbs",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/lang/fr/letsmeet.json",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/letsmeet-search/controllers/hero.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers/endpoints/autocomplete.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/letsmeet-search/fixtures.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit/controllers/endpoints/contacts/suggestions.test.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/components/dcr/views/app-view.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers/endpoints/dashboard/pymks.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/config/routes.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/dashboard/views/pymk.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/dashboard/models/pymkHide.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/dashboard2/models/pymkHide.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit/controllers/contacts/suggestions.test.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/dashboard/models/pymk.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/dashboard/collections/pymks.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/dashboard/views/app.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit/controllers/endpoints/dashboard/pymks.test.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/dashboard2/views/pymk.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/views/contacts/suggestions.hbs",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/contacts_suggestions/models/contact.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit/controllers/endpoints/network.test.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers/endpoints/network.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit/services/network.test.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/services/network.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/components/dcr/models/contact.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/app/services/member.js",
+		"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit/services/suggestions.test.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements",
+			"/Users/aduvillier/Documents/projects/grunt-less-to-sass/node_modules",
+			"/Users/aduvillier/Documents/projects/grunt-less-to-sass/tasks/lib/replacements",
+			"/Users/aduvillier/Documents/projects/grunt-less-to-sass/node_modules",
+			"/Users/aduvillier/Documents/projects/tetra-ui/src/less",
+			"/Users/aduvillier/Documents/projects/tetra-ui/src/less/components",
+			"/Users/aduvillier/Documents/projects/tetra-ui/doc/templates/partials/forms",
+			"/Users/aduvillier/Documents/projects/tetra-ui/src/less",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/dashboard",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit/controllers/endpoints",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/import-contacts",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/company-admin",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/company-admin",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/letsmeet-search",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/company-admin",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/import-contacts",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/company-admin",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/company-admin/controllers",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/company-admin",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/apps/import-contacts/templates",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/views/_partials",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/tasks",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/config",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit/controllers",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit/services",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/views",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/contacts_suggestions",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/views",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/config",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/styles",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/styles/_partials",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/services",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/views",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/test/unit",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/config",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/components",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/images/loaders",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/views",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/views",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts/modules/contacts_suggestions",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/controllers",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/services",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/tasks",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/assets/scripts",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/app/views",
+			"/Users/aduvillier/Documents/projects/viadeo-webapp/tasks"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mixin",
+			"include",
+			"    console.log(dir + item);\n",
+			");\n",
+			"console",
+			"readfileSync",
+			"}",
+			"exists",
+			"fs",
+			"require('fs')",
+			"replacements",
+			"options",
+			"mixin",
+			"replacements",
+			"variables_default",
+			"\"",
+			"  },\n",
+			"replace",
+			"contents",
+			"spin",
+			"layered",
+			"8080",
+			"width",
+			"no-js ",
+			"{{language.code}}",
+			"grayLighter",
+			"grayLi",
+			"borderWidth",
+			"8px",
+			"7px",
+			"border",
+			"popover-display",
+			"border-left-color(",
+			"border-left-color",
+			"border-left-color(",
+			"left",
+			"border",
+			"default",
+			" aria-hidden=\"true\" ",
+			"toggle-code",
+			"/i",
+			"<i",
+			"{{this}}",
+			"{{this}",
+			"dd item",
+			"dropdown",
+			"margin",
+			"vico",
+			"drop down item",
+			"_listBorder",
+			"{{this}}",
+			"dd item",
+			"border-radius",
+			"_margin",
+			"color",
+			"default",
+			"5);",
+			"5",
+			"default",
+			"Default",
+			"default",
+			"button",
+			"default",
+			"Default",
+			"default",
+			"Default",
+			"default",
+			"Default",
+			"default",
+			"Default",
+			"default",
+			"color",
+			"viadeo",
+			"00D4",
+			"viadeo",
+			"pageBg",
+			"page",
+			"#E0E2E4",
+			"buttonPrimaryEndColor",
+			"rc-card",
+			"grayLight",
+			"grayLighter",
+			"@gray;",
+			"grayLight",
+			"panelBackground",
+			"@blue3",
+			"label",
+			"42a2d6",
+			"upper",
+			"42a2d6",
+			"f07355",
+			"ui-badge",
+			"lower",
+			"uppercase",
+			"-secondary",
+			"follow-github",
+			"btn",
+			"@font-stack_revamp",
+			"@font-stack_re",
+			"@font-stack",
+			"@font-stack_revamp",
+			"Default",
+			"Primar",
+			"primary",
+			"/i",
+			"<i",
+			"line-he",
+			"&.",
+			".tetra-2015-button",
+			"_revamp",
+			"revamp",
+			"h-bx",
+			"close",
+			"default",
+			"_revamp;",
+			"_revamp:",
+			".bx",
+			"bx",
+			"8080",
+			"media",
+			"premiu",
+			"AutocompleteService",
+			"CLIENT_TIMEOUT",
+			"instrument",
+			"referer",
+			"pymkHide",
+			"pymkModel",
+			"model."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"};",
+			"-primary",
+			"referer",
+			"$"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tasks/options/lessToSass.js",
+					"settings":
+					{
+						"buffer_size": 387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fixtures/important.less",
+					"settings":
+					{
+						"buffer_size": 33,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "!important.less",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tasks/options/clean.js",
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29,
+								29
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"suggestions.test.js",
+				"test/unit/services/suggestions.test.js"
+			],
+			[
+				"translation",
+				".tmp/lang/ru/translation.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/aduvillier/tetra-ui.sublime-project"
+			],
+			[
+				"leg",
+				"/Users/aduvillier/legacy.sublime-project"
+			],
+			[
+				"ad",
+				"/Users/aduvillier/adillions.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 235.0,
+	"status_bar_visible": true
+}

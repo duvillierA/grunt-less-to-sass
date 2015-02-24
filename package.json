@@ -24,7 +24,7 @@
     "node": ">=0.10.28"
   },
   "dependencies": {
-    "lodash": "~2.4.1"
+    "lodash": "~3.0.1"
   },
   "devDependencies": {
     "chai": "~1.10.0",
