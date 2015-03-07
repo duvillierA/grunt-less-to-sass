@@ -1,6 +1,6 @@
 {
   "name": "grunt-less-to-sass",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Convert Less Css files to Sass (.scss) files",
   "private": false,
   "author": {
@@ -21,7 +21,7 @@
     }
   ],
   "engines": {
-    "node": ">=0.10.28"
+    "node": ">=0.10.29"
   },
   "dependencies": {
     "lodash": "~3.0.1"
@@ -48,9 +48,6 @@
   "engines": {
     "node": ">=0.10.28"
   },
-  "directories": {
-    "doc": "./docs"
-  },
   "keywords": [
     "grunt",
     "replace",
@@ -59,10 +56,12 @@
     "sass",
     "scss",
     "less2sass",
-    "lessToSass"
+    "lessToSass",
+    "less2scss",
+    "lessToScss"
   ],
   "scripts": {
-    "start": "node app.js",
+    "start": "grunt",
     "test": "DEBUG= mocha --bail --timeout 100 'test/unit/**/*.test.js'"
   }
 }
