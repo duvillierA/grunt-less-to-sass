@@ -25,14 +25,14 @@ Options will only apply to the relevant files, so you don't need separate target
 
 #### excludes
 
-- Description: List of replacements filename to excludes. [See all replacements](#replacements-rules)
+- Description: An Array-List of replacements name to excludes. [See all replacements](#replacements-rules)
 - Type: `Array`
 - Default: `[]`
 - Example: `['default']`;
 
 #### replacements
 
-- Description: List of custom replacements.
+- Description: An Array of custom replacements.
 - Type: `Array` 
 - Default: `[]` 
 - Example:
