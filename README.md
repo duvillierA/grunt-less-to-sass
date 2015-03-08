@@ -25,16 +25,17 @@ Options will only apply to the relevant files, so you don't need separate target
 
 #### excludes
 
-Type: `Array`
-Default: `[]`
-Example: `['default']`;
-Description: List of replacements filename to excludes. [See all replacements](#Replacements)
+- Description: List of replacements filename to excludes. [See all replacements](#replacements)
+- Type: `Array`
+- Default: `[]`
+- Example: `['default']`;
 
 #### replacements
 
-Type: `Array`
-Default: `[]`
-Example:
+- Description: List of custom replacements.
+- Type: `Array` 
+- Default: `[]` 
+- Example:
 ```javascript
 [{
   pattern: /(\s+)\.([\w\-]*)\s*\((.*)\);/gi,
@@ -42,7 +43,6 @@ Example:
   order: 2
 }];
 ```
-Description: List of custom replacements.
 
 ## Usage Examples
 
