@@ -25,7 +25,7 @@ Options will only apply to the relevant files, so you don't need separate target
 
 #### excludes
 
-- Description: List of replacements filename to excludes. [See all replacements](#replacements)
+- Description: List of replacements filename to excludes. [See all replacements](#replacements-rules)
 - Type: `Array`
 - Default: `[]`
 - Example: `['default']`;
@@ -86,7 +86,7 @@ Options will only apply to the relevant files, so you don't need separate target
   }
 ```
 
-## Replacements
+## Replacements rules
 
 [See all replacements rules](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements)
 
