@@ -1,6 +1,6 @@
 {
   "name": "grunt-less-to-sass",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Convert Less Css files to Sass (.scss) files",
   "private": false,
   "author": {
