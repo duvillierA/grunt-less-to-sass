@@ -4,4 +4,4 @@ $black: #000;
 @if $valid == true {
   @mixin condition-test($valid, $black){
   color : $black;
-};};
+}}
