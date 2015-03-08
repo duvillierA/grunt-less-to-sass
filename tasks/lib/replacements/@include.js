@@ -5,6 +5,6 @@
  */
 module.exports = {
   pattern: /(\s+)\.([\w\-]*)\s*\((.*)\);/gi,
-  replacement: '$1@include $2($3)',
+  replacement: '$1@include $2($3);',
   order: 2
 };
