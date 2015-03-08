@@ -12,13 +12,39 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 npm install grunt-less-to-sass --save-dev
 ```
 
-## Less task
-_Run this task with the `grunt lessToSass` command._
+Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
-Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
+```js
+grunt.loadNpmTasks('grunt-less-to-sass');
+```
+
+## Options
+
+Options will only apply to the relevant files, so you don't need separate targets for png/jpg.
 
 
-### Usage Examples
+#### excludes
+
+Type: `Array`
+Default: `[]`
+Example: `['default']`;
+Description: List of replacements filename to excludes. [See all replacements](#Replacements)
+
+#### replacements
+
+Type: `Array`
+Default: `[]`
+Example:
+```javascript
+[{
+  pattern: /(\s+)\.([\w\-]*)\s*\((.*)\);/gi,
+  replacement: '$1@include $2($3)',
+  order: 2
+}];
+```
+Description: List of custom replacements.
+
+## Usage Examples
 
 ```js
   convert: {
@@ -60,9 +86,9 @@ Task targets, files and options may be specified according to the grunt [Configu
   }
 ```
 
-### Replacements
+## Replacements
 
-[See all replacements](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements)
+[See all replacements rules](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements)
 
 - [@extend](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/@extend.js)
 - [@import](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/@import.js)
