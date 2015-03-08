@@ -4,7 +4,9 @@
   @import "*";
  */
 module.exports = {
-  pattern: /\@import\s*"(.*).less"/gi,
-  replacement: '@import "$1"',
+  pattern: /\@import\s*["|'](.*).less["|']/gi,
+  replacement: function (match, filepath) {
+    return '@import \'' + filepath + '\'';
+  },
   order: 2
 };
