@@ -20,9 +20,6 @@ grunt.loadNpmTasks('grunt-less-to-sass');
 
 ## Options
 
-Options will only apply to the relevant files, so you don't need separate targets for png/jpg.
-
-
 #### excludes
 
 - Description: An Array-List of replacements name to excludes. [See all replacements](#replacements-rules)
@@ -40,7 +37,7 @@ Options will only apply to the relevant files, so you don't need separate target
 [{
   pattern: /(\s+)\.([\w\-]*)\s*\((.*)\);/gi,
   replacement: '$1@include $2($3)',
-  order: 2
+  order: 2 // order of execution 
 }];
 ```
 
