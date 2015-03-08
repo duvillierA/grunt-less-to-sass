@@ -4,14 +4,19 @@ var fs = require('fs'),
 
 var replacements = function (options) {
   var filenames = fs.readdirSync(dir),
-    customReplacements = options.replacements || [];
-  return _.chain(filenames).filter(function (filename) {
-      return options[filename.split('.js')[0]] !== false;
-    }).map(function (item) {
-      return require(dir + item);
+    excludes = options.excludes,
+    customReplacements = options.replacements;
+
+  return _.chain(filenames)
+    .filter(function (filename) {
+      return excludes.indexOf(filename.split('.js').join('')) === -1;
+    })
+    .map(function (filename) {
+      return require(dir + filename);
     })
     .sortBy('order')
-    .value().concat(customReplacements);
+    .value()
+    .concat(customReplacements);
 };
 
 module.exports = replacements;

@@ -1,5 +1,5 @@
 module.exports = {
   results: {
-    src: ['results']
+    src: ['test/expected']
   }
 };

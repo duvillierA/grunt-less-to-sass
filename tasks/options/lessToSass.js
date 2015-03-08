@@ -8,7 +8,7 @@ module.exports = {
       dest: 'test/expected'
     }],
     options: {
-      'default': false
+      excludes: ['default']
     }
   },
   convert_variables_to_default: {
