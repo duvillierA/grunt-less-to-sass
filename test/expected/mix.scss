@@ -1,2 +1,3 @@
-$shade: mix(#000000, #bbb, 10%);
-$tint: mix(#FFFFFF, #bbb, 10%);
+$shade: mix(#000000, #bbb, 10%));
+$tint: mix(#ffffff, #bbb, 10%));
+@include gradient-vertical(mix(#000000, $yellow, 80%)), mix(#ffffff, $yellow, 70%)));
