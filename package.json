@@ -35,11 +35,7 @@
     "grunt-jsonlint": "~1.0.4",
     "grunt-mocha-test": "~0.12.4",
     "grunt-sass": "0.16.1",
-    "load-grunt-config": "~0.12.0",
-    "mocha": "~2.1.0",
-    "rewire": "^2.1.0",
-    "sinon": "~1.12.2",
-    "sinon-chai": "~2.6.0"
+    "load-grunt-config": "~0.12.0"
   },
   "repository": {
     "type": "git",
