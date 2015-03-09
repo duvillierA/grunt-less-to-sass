@@ -1,6 +1,15 @@
+// Nested less mixins cannot be converted
+// #gradient {
+//   @mixin vertical($startColor: #555, $endColor: #333){
+//   }
+// }
+
+// please use a dashed name
+
 $primaryColor:  #000;
 $secondaryColor:  #FFF;
-$valid:  true;
 
+@mixin gradient-vertical($startColor: #555, $endColor: #333){
+
+}
 @include gradient-vertical($primaryColor, $secondaryColor);
-@include grid-gu($valid);

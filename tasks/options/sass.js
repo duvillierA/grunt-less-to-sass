@@ -2,10 +2,10 @@ module.exports = {
   build: {
     files: [{
       expand: true,
-      cwd: 'app/assets/styles',
+      cwd: 'test/expected',
       src: ['*.scss'],
       ext: '.css',
-      dest: '.public/styles'
+      dest: '.tmp'
     }]
   }
 };

@@ -1,3 +1,4 @@
+$dir = 'dir';
 .loader-default {
-  background: url("#{$loaders-dir}/default.gif");
+  background: url("#{$dir}/default.gif");
 }

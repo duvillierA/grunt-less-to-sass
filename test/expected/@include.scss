@@ -1,3 +1,5 @@
-$color: #000;
+@mixin border-radius($size){
+  border-radius: $size;
+}
 
-@include include-example($color);
+@include border-radius(5px);

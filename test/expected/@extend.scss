@@ -1,1 +1,4 @@
-@extend .extend;
+.extend-class {
+  color: #000;
+}
+@extend .extend-class;
