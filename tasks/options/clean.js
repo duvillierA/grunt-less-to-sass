@@ -1,5 +1,5 @@
 module.exports = {
-  results: {
-    src: ['test/expected']
+  test: {
+    src: ['test/expected', '.tmp']
   }
 };

@@ -22,11 +22,11 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('test', [
-    'sass',
     'mochaTest',
     'jshint',
     'jsonlint',
-    'jsbeautifier:modify'
+    'jsbeautifier:modify',
+    'sass'
   ]);
 
   grunt.registerTask('default', 'launch the task', [
