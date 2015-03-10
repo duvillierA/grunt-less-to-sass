@@ -1,7 +1,6 @@
 'use strict';
 
-var lib = require('./lib/index'),
-  _ = require('lodash');
+var lib = require('./lib/index');
 
 module.exports = function (grunt) {
 
@@ -17,11 +16,9 @@ module.exports = function (grunt) {
       var contents = file.src.filter(function (filepath) {
         return grunt.file.exists(filepath);
       }).map(function (filepath) {
-        var source = grunt.file.read(filepath);
-        _.forEach(replacements, function (item) {
-          source = source.replace(item.pattern, item.replacement);
+        return [grunt.file.read(filepath)].concat(replacements).reduce(function (source, item) {
+          return source.replace(item.pattern, item.replacement);
         });
-        return source;
       }).join('\n');
       grunt.file.write(file.dest, contents);
     });
