@@ -1,4 +1,4 @@
-# Grunt-less-to-sass
+# Grunt-less-to-sass [![npm version](https://badge.fury.io/js/grunt-less-to-sass.svg)](http://badge.fury.io/js/grunt-less-to-sass)
 
 > Convert LESS files to SASS (.scss)
 
