@@ -44,43 +44,47 @@ grunt.loadNpmTasks('grunt-less-to-sass');
 ## Usage Examples
 
 ```js
-  convert: {
-    files: [{
-      expand: true,
-      cwd: 'test/fixtures',
-      src: ['*.less'],
-      ext: '.scss',
-      dest: 'test/expected'
-    }]
-  },
-  excludes_replacements: {
-    files: [{
-      expand: true,
-      cwd: 'test/fixtures',
-      src: ['*.less'],
-      ext: '.scss',
-      dest: 'test/expected'
-    }],
-    options: {
-      excludes: ['default']
+lessToSass: {
+    convert: {
+        files: [{
+            expand: true,
+            cwd: 'test/fixtures',
+            src: ['*.less'],
+            ext: '.scss',
+            dest: 'test/expected'
+        }]
+    },
+    excludes_replacements: {
+        files: [{
+            expand: true,
+            cwd: 'test/fixtures',
+            src: ['*.less'],
+            ext: '.scss',
+            dest: 'test/expected'
+        }], 
+        options:
+        {
+            excludes: ['default']
+        }
+    },
+    convert_within_custom_replacements: {
+        files: [{
+            expand: true,
+            cwd: 'test/fixtures',
+            src: ['default.less'],
+            ext: '.scss',
+            dest: 'test/expected'
+        }],
+        options:
+        {
+            replacements: [{
+                pattern: /(\s+)\.([\w\-]*)\s*\((.*)\);/gi,
+                replacement: '$1@include $2($3)',
+                order: 2
+            }]
+        }
     }
-  },
-  convert_within_custom_replacements: {
-    files: [{
-      expand: true,
-      cwd: 'test/fixtures',
-      src: ['default.less'],
-      ext: '.scss',
-      dest: 'test/expected'
-    }],
-    options: {
-      replacements: [{
-        pattern: /(\s+)\.([\w\-]*)\s*\((.*)\);/gi,
-        replacement: '$1@include $2($3)',
-        order: 2
-      }]
-    }
-  }
+}
 ```
 
 ## Replacements rules
