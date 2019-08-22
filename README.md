@@ -30,14 +30,14 @@ grunt.loadNpmTasks('grunt-less-to-sass');
 #### replacements
 
 - Description: An Array of custom replacements.
-- Type: `Array` 
-- Default: `[]` 
+- Type: `Array`
+- Default: `[]`
 - Example:
 ```javascript
 [{
   pattern: /(\s+)\.([\w\-]*)\s*\((.*)\);/gi,
   replacement: '$1@include $2($3)',
-  order: 2 // order of execution 
+  order: 2 // order of execution
 }];
 ```
 
@@ -61,7 +61,7 @@ lessToSass: {
             src: ['*.less'],
             ext: '.scss',
             dest: 'test/expected'
-        }], 
+        }],
         options:
         {
             excludes: ['default']
@@ -98,7 +98,6 @@ lessToSass: {
 - [@mixin](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/@mixin.js)
 - [adjust-hue](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/adjust-hue.js)
 - [condition](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/condition.js)
-- [default](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/default.js)
 - [ie-hex-str](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/ie-hex-str.js)
 - [important](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/important.js)
 - [interpolation](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/interpolation.js)
