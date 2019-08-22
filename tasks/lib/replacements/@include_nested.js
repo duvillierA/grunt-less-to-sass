@@ -8,5 +8,5 @@
 module.exports = {
   pattern: /(\s*)\#([\w\-]*)\s*>\s*\@include\s+(.*);/gi,
   replacement: '$1@include $2-$3;',
-  order: 2
+  order: 3
 };
