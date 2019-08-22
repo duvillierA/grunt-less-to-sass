@@ -1,5 +1,0 @@
-test_task:
-  container:
-    image: node:latest
-  install_script: npm install
-  test_script: npm run test
