@@ -58,6 +58,6 @@
   ],
   "scripts": {
     "start": "grunt",
-    "test": "DEBUG= mocha --bail --timeout 100 'test/unit/**/*.test.js'"
+    "test": "mocha --timeout 100 'test/runner.js'"
   }
 }
