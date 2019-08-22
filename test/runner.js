@@ -1,10 +1,10 @@
 "use strict";
 
-const fs = require("fs"),
+var fs = require("fs"),
   assert = require("chai").assert,
   lib = require("../tasks/lib/index");
 
-const replacements = lib({
+var replacements = lib({
   excludes: [],
   replacements: []
 });
@@ -17,10 +17,18 @@ function transform(filepath) {
     });
 }
 
-describe("Fixtures to Expected", () => {
+it("replacements in proper order", function () {
+  var curr = 0;
+  for (var i = 0; i < replacements.length; i++) {
+    assert.isTrue(curr <= replacements[i].order);
+    curr = replacements[i].order;
+  }
+});
+
+describe("test fixtures to expected", function () {
   fs.readdirSync("test/fixtures/").forEach(file => {
     it("should properly convert " + file, function() {
-      const expectedFile = "test/expected/" + file.replace(".less", ".scss");
+      var expectedFile = "test/expected/" + file.replace(".less", ".scss");
       assert.isTrue(fs.existsSync(expectedFile, "utf8"));
       assert.equal(
         fs.readFileSync(expectedFile, "utf8"),
