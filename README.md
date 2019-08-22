@@ -25,7 +25,7 @@ grunt.loadNpmTasks('grunt-less-to-sass');
 - Description: An Array-List of replacements name to excludes. [See all replacements](#replacements-rules)
 - Type: `Array`
 - Default: `[]`
-- Example: `['default']`;
+- Example: `['default']` (recommended)
 
 #### replacements
 
@@ -98,6 +98,7 @@ lessToSass: {
 - [@mixin](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/@mixin.js)
 - [adjust-hue](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/adjust-hue.js)
 - [condition](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/condition.js)
+- [default](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/default.js)
 - [ie-hex-str](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/ie-hex-str.js)
 - [important](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/important.js)
 - [interpolation](https://github.com/duvillierA/grunt-less-to-sass/tree/master/tasks/lib/replacements/interpolation.js)
