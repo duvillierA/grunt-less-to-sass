@@ -1,5 +1,4 @@
 var fs = require('fs'),
-  _ = require('lodash'),
   dir = __dirname + '/replacements/';
 
 var replacements = function (options) {
@@ -11,7 +10,11 @@ var replacements = function (options) {
     return require(dir + filename);
   }).concat(options.replacements);
 
-  return _.sortBy(results, 'order');
+  results.sort(function (a, b) {
+    return a.order - b.order;
+  });
+
+  return results;
 };
 
 module.exports = replacements;
