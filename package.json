@@ -21,7 +21,7 @@
     }
   ],
   "engines": {
-    "node": ">=0.10.28"
+    "node": ">=0.10.29"
   },
   "dependencies": {},
   "devDependencies": {
